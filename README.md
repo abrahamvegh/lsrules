@@ -13,3 +13,4 @@ php scripts/derp.php | pbcopy
 ```
 
 [ts]: https://tailscale.com
+[derp]: https://tailscale.com/kb/1232/derp-servers
