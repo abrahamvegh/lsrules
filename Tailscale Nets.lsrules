@@ -7,14 +7,14 @@
 			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
 			"action" : "allow", 
 			"direction" : "both", 
-			"notes" : "192.0.0.0/29\n\nRFC 7335\nIPv4 Service Continuity Prefix", 
+			"notes" : "RFC 7335: IPv4 Service Continuity Prefix\n\n192.0.0.0/29", 
 			"remote-addresses" : "192.0.0.0-192.0.0.7"
 		}, 
 		{
 			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
 			"action" : "allow", 
 			"direction" : "both", 
-			"notes" : "2600:300::/24\n\nAS7018\nAT&T Mobility LLC", 
+			"notes" : "AS7018: AT&T Mobility LLC\n\n2600:300::/24", 
 			"remote-addresses" : "2600:300::-2600:3ff:ffff:ffff:ffff:ffff:ffff:ffff"
 		}
 	]
