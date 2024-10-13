@@ -16,6 +16,13 @@
 			"direction" : "both", 
 			"notes" : "AS7018: AT&T Mobility LLC\n\n2600:300::/24", 
 			"remote-addresses" : "2600:300::-2600:3ff:ffff:ffff:ffff:ffff:ffff:ffff"
+		}, 
+		{
+			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
+			"action" : "allow", 
+			"direction" : "both", 
+			"notes" : "AS7922: Comcast Cable Communications, LLC\n\n68.80.0.0/13", 
+			"remote-addresses" : "2601::-2601:fff:ffff:ffff:ffff:ffff:ffff:ffff,68.80.0.0-68.87.255.255"
 		}
 	]
 }
