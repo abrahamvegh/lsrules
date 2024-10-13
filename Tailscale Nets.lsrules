@@ -9,6 +9,13 @@
 			"direction" : "both", 
 			"notes" : "192.0.0.0/29\n\nRFC 7335\nIPv4 Service Continuity Prefix", 
 			"remote-addresses" : "192.0.0.0-192.0.0.7"
+		}, 
+		{
+			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
+			"action" : "allow", 
+			"direction" : "both", 
+			"notes" : "2600:300::/24\n\nAS7018\nAT&T Mobility LLC", 
+			"remote-addresses" : "2600:300::-2600:3ff:ffff:ffff:ffff:ffff:ffff:ffff"
 		}
 	]
 }
