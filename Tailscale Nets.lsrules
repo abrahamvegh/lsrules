@@ -7,7 +7,7 @@
 			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
 			"action" : "allow", 
 			"direction" : "both", 
-			"notes" : "RFC 7335 192.0.0.0/29 IPv4 Service Continuity Prefix", 
+			"notes" : "192.0.0.0/29\n\nRFC 7335\nIPv4 Service Continuity Prefix", 
 			"remote-addresses" : "192.0.0.0-192.0.0.7"
 		}
 	]
