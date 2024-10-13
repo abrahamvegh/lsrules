@@ -1,0 +1,14 @@
+{
+	"name": "Tailscale Nets",
+	"description": "Rules to allow Tailscale unrestricted access to/from various netblocks. Presumes access control happens elsewhere.",
+	"rules": 
+	[
+		{
+			"process" : "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
+			"action" : "allow", 
+			"direction" : "both", 
+			"notes" : "RFC 7335 192.0.0.0/29 IPv4 Service Continuity Prefix", 
+			"remote-addresses" : "192.0.0.0-192.0.0.7"
+		}
+	]
+}
