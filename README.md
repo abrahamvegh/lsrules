@@ -4,7 +4,10 @@ Some rule groups for use with [Little Snitch][ls].
 
 [ls]: https://www.obdev.at/products/littlesnitch/index.html
 
-## Tailscale
+[rules-tailscale-base]: https://github.com/abrahamvegh/lsrules/raw/refs/heads/main/Tailscale.lsrules
+[rules-tailscale-nets]: https://github.com/abrahamvegh/lsrules/raw/refs/heads/main/Tailscale%20Nets.lsrules
+
+## Tailscale [🔗][rules-tailscale-base]
 
 [Tailscale][ts] publishes a [current list][list] of their [DERP servers][derp]. A script is included here for importing that list and turning it into a list of IPs that Little Snitch can use to not annoy me.
 
@@ -16,7 +19,7 @@ php scripts/derp.php | pbcopy
 [list]: https://login.tailscale.com/derpmap/default
 [derp]: https://tailscale.com/kb/1232/derp-servers
 
-## Tailscale Nets
+## Tailscale Nets [🔗][rules-tailscale-nets]
 
 Some netblocks I expect Tailscale to try talking with; you may not necessarily want any or all of these, or as broad as these may be. I assume access control happens elsewhere.
 
