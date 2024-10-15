@@ -21,6 +21,13 @@
 			"process": "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
 			"action": "allow", 
 			"direction": "both", 
+			"notes": "AS701: Verizon Business\n\n2600:4000::/24\n98.115.0.0/16", 
+			"remote-addresses": "2600:4000::-2600:40ff:ffff:ffff:ffff:ffff:ffff:ffff,98.115.*.*"
+		}, 
+		{
+			"process": "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
+			"action": "allow", 
+			"direction": "both", 
 			"notes": "AS7922: Comcast Cable Communications, LLC\n\n2601::/20\n68.80.0.0/13", 
 			"remote-addresses": "2601::-2601:fff:ffff:ffff:ffff:ffff:ffff:ffff,68.80.0.0-68.87.255.255"
 		}
