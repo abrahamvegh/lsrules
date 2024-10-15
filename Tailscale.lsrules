@@ -49,6 +49,11 @@
 		{
 			"action": "allow", 
 			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
+			"remote-addresses": "100.64.0.0-100.127.255.255"
+		}, 
+		{
+			"action": "allow", 
+			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
 			"remote-addresses": "239.255.255.250"
 		}
 	]
