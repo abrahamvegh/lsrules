@@ -15,6 +15,12 @@ Some rule groups for use with [Little Snitch][ls].
 php scripts/derp.php | pbcopy
 ```
 
+As of this writing, Tailscale is using Amazon AWS (possibly ELB?) to frontend the `controlplane`, which means there's now a larger list of IPs that the client wants to talk to.
+
+```
+php scripts/controlplane.php | pbcopy
+```
+
 [ts]: https://tailscale.com
 [list]: https://login.tailscale.com/derpmap/default
 [derp]: https://tailscale.com/kb/1232/derp-servers
