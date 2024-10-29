@@ -42,8 +42,8 @@
 			"ports": "53",
 		}, 
 		{
-			"action": "allow", 
 			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
+			"action": "allow", 
 			"remote-domains": "one.one.one.one"
 		}, 
 		{
