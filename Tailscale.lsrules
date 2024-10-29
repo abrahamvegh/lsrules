@@ -44,6 +44,7 @@
 		{
 			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
 			"action": "allow", 
+			"direction" : "both", 
 			"remote-domains": "one.one.one.one"
 		}, 
 		{
