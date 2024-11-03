@@ -30,6 +30,13 @@
 			"direction": "both", 
 			"notes": "AS7922: Comcast Cable Communications, LLC\n\n2601::/20\n68.80.0.0/13", 
 			"remote-addresses": "2601::-2601:fff:ffff:ffff:ffff:ffff:ffff:ffff,68.80.0.0-68.87.255.255"
+		}, 
+		{
+			"process": "identifier.W5364U7YZB\/io.tailscale.ipn.macsys.network-extension", 
+			"action": "allow", 
+			"direction": "both", 
+			"notes": "AS714: Apple\n\n17.0.0.0/8", 
+			"remote-addresses": "17.*.*.*"
 		}
 	]
 }
