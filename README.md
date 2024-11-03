@@ -41,3 +41,8 @@ Some netblocks I expect Tailscale to try talking with; you may not necessarily w
 	- AS7922 (Comcast Cable Communications, LLC)
 		- `2601::/20`
 		- `68.80.0.0/13`
+	- AS701 (Verizon Business)
+		- `2600:4000::/24`
+		- `98.115.0.0/16`
+	- AS714 (Apple)
+		- `17.0.0.0/8`
