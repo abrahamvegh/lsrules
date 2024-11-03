@@ -36,13 +36,13 @@ Some netblocks I expect Tailscale to try talking with; you may not necessarily w
 	- [IPv4 Service Continuity Prefix][rfc7335]
 		- `192.0.0.0/29`
 - Autonomous systems
-	- AS7018 (AT&T Services, Inc.)
-		- `2600:300::/24` (AT&T Mobility LLC / AS20057)
-	- AS7922 (Comcast Cable Communications, LLC)
-		- `2601::/20`
-		- `68.80.0.0/13`
 	- AS701 (Verizon Business)
 		- `2600:4000::/24`
 		- `98.115.0.0/16`
 	- AS714 (Apple)
 		- `17.0.0.0/8`
+	- AS7018 (AT&T Services, Inc.)
+		- `2600:300::/24` (AT&T Mobility LLC / AS20057)
+	- AS7922 (Comcast Cable Communications, LLC)
+		- `2601::/20`
+		- `68.80.0.0/13`
