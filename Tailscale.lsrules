@@ -49,6 +49,12 @@
 			"remote-domains": "one.one.one.one"
 		}, 
 		{
+			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
+			"action": "allow", 
+			"direction" : "both", 
+			"remote-domains": "dns.google"
+		}, 
+		{
 			"action": "allow", 
 			"process": "identifier.W5364U7YZB/io.tailscale.ipn.macsys.network-extension", 
 			"remote-addresses": "100.64.0.0-100.127.255.255"
